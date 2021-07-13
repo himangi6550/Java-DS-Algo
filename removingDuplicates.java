@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-class removingDuplicates {
+class Duplicates {
 	    public String removeDuplicates(String str) {
 	        char[] ch = str.toCharArray();
 	        Stack<Character> s=new Stack<>();
@@ -25,4 +25,13 @@ class removingDuplicates {
 	        
 	        }
 	    }
+public class removingDuplicates {
+	public static void main(String args[]) {
+		Duplicates s=new Duplicates();
+		String str=s.removeDuplicates("Looteraa");
+		System.out.println(str);
+		}
+
+}
+
 
