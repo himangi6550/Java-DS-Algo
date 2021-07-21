@@ -13,7 +13,7 @@ class Printer <T> {
     public static <E> void printArray(E[] arr){
         for(E n:arr){
             System.out.println(n+" ");
-        }
+        }int i=Integer.MIN_VALUE
     }
 
 }
